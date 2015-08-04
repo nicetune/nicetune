@@ -11,6 +11,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 <title>NiceTune by trebogeer</title>
+<script src="javascripts/jquery-1.11.3.min.js"></script>
 </head>
 
 <body>
@@ -58,7 +59,7 @@
         </section>
         <section id=downloads">
 
-            <a href='javascript:start.start({"baseUrl":"mc.us11.list-manage.com","uuid":"5356b2d99293d47e5d2f5afc8","lid":"88131e3af0"})' id=subscr" class="button"><span>Subscribe</></a>
+            <a href='#' id=subscr" class="button"><span>Subscribe</></a>
         </section>
         <footer>
             NiceTune is maintained by <a href="https://github.com/trebogeer">trebogeer</a><br>
@@ -75,7 +76,7 @@ try {
     pageTracker._trackPageview();
 } catch(err) {}
         </script>
-        <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">var start;require(["mojo/signup-forms/Loader"], function(L) { start = L })</script> 
+        <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { $('#subscr').click(function(){L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"5356b2d99293d47e5d2f5afc8","lid":"88131e3af0"});return false;}) })</script> 
     </div>
 </div>
 </body>
