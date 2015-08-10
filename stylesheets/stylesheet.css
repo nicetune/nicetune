@@ -166,7 +166,7 @@ a.button span {
 
 #fb-like span {
   padding-right: 10px;
-  vertical-align: top;
+  vertical-align: top !important;
 }
 
 code, pre {
