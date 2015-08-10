@@ -165,9 +165,9 @@ a.button span {
   margin-right: 0;
 }
 
-div.fb-like span {
+#fb-like span {
   padding-right: 10px;
-  vertical-align: inherit;
+  vertical-align: top;
 }
 
 code, pre {
