@@ -110,7 +110,7 @@ a.button {
   margin-right: 12px;
   font-size: 12px;
   font-weight: bold;
-  line-height: 25px;
+  line-height: 20px;
   color: #303030;
   background: #fdfdfd; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
@@ -148,7 +148,7 @@ a.button:hover {
 
 a.button span {
   display: block;
-  height: 23px;
+  height: 20px;
   padding-left: 10px;
 }
 
